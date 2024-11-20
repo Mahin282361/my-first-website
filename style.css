@@ -28,9 +28,9 @@
 }
 .list>ul>li{
 list-style: none;
-
 border-right: 2px solid white;
 padding: 20px 10px 20px 10px;
+transition:0.5s;
 
 
 
@@ -49,6 +49,7 @@ padding: 20px 10px 20px 10px;
 }
 .list>ul>li:hover{
     background-color:rgb(7, 122, 230);
+
 }
 .list>ul>li:hover>a{
     color: gold;
@@ -81,5 +82,89 @@ transform-origin: top;
     visibility:visible;
     transform: scaleY(1);
     transform-origin: top;
+
+}
+
+/* 
+navber end */
+
+/* Hero area start */
+.hero-area{
+    background-image:url(cp.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+    margin-top:-10px;
+
+}
+.hero-container{
+   text-align: center; 
+
+ padding-top:170px;
+   top: 170px;
+
+
+
+  
+
+}
+.hero-container h6{
+  font-size:15px;
+  color: rgb(4, 25, 251);
+}
+.hero-container h1{
+    background-color: dodgerblue;
+    width: 250px;
+    text-align: center;
+    margin:auto;
+    color: white;
+    padding:8px 0;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.hero-container h5{
+    font-size: 14px;
+    color: greenyellow;
+    margin-top:10px;
+}
+.hero-container button{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius:25px 7px 25px 7px;
+    background-color: rgba(0, 255, 255, 0.589);
+    border:2px solid green;
+    font-size:20px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.hero-container button:hover{
+    background-color: rgba(0, 255, 255, 0.026);
+}
+.social-icon {
+   
+margin-top:5px;
+
+    
+}
+.social-icon a i{
+   
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    font-size:23px;
+    height:40px;
+    width: 40px;
+    line-height:1.5;
+    border-radius:50%; 
+    transition: 0.5s;
+
+}
+.social-icon a i:hover{
+    background-color: rgba(0, 0, 0, 0.024);
+    border-color:greenyellow;
+    transform: rotate(360deg);
 
 }
