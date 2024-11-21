@@ -22,8 +22,6 @@
 }
 .list>ul{
     display: flex;
-
-
  
 }
 .list>ul>li{
@@ -104,11 +102,6 @@ navber end */
 
  padding-top:170px;
    top: 170px;
-
-
-
-  
-
 }
 .hero-container h6{
   font-size:15px;
@@ -168,3 +161,115 @@ margin-top:5px;
     transform: rotate(360deg);
 
 }
+/* header end */
+/* main start */
+
+.section-1{
+display: flex;
+justify-content: space-between;
+width:950px;
+
+margin:auto;
+margin-top:40px;
+padding:30px 0;
+}
+.box-1{
+    width:300px;
+    text-align: center;
+ 
+    padding:30px 0 30px 0 ;
+    transition:0.5s;
+}
+.box-2{
+    width:300px;
+    text-align: center;
+    padding:30px 0 30px 0 ;
+    transition:0.5s;
+}
+.box-3{
+    width:300px;
+    text-align: center;
+    padding:30px 0 30px 0 ;
+    transition:0.5s;
+}
+.box-1 i{
+font-size: x-large;
+margin-bottom: 10px;
+
+}
+.box-2 i{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.box-3 i{
+        font-size: x-large;
+        margin-bottom: 10px;
+}
+.box-1 h1{
+    margin-bottom: 10px;
+}
+.box-2 h1{
+    margin-bottom: 10px;
+}
+.box-3 h1{
+    margin-bottom: 10px;
+}
+.box-1:hover{
+    box-shadow: 3px 3px 9px gray;
+}
+.box-2:hover{
+    box-shadow: 3px 3px 9px gray;
+}
+.box-3:hover{
+    box-shadow: 3px 3px 9px gray;
+}
+/* section-2 start from here */
+.author{
+    display: flex;
+    width: 1200px;
+  
+    margin: auto;
+
+}
+.author-speach{
+    margin-left:15px;
+}
+.author-speach p{
+
+    width: 700px;
+    text-align: justify;
+}
+.section-2{
+    margin-bottom: 1000px;
+    margin-top: 30px;
+}
+
+
+.author-speach h5{
+font-size: 20px;
+margin:80px 0 30px 0;
+color:rgb(255, 47, 154);
+}
+.author-name{
+    text-align: center;
+    color: darkorange;
+}
+.author-speach button{
+    margin-top: 10px;
+    padding: 7px;
+    background-color:rgba(255, 4, 54, 0.838) ;
+    border-radius:10px;
+    color: black;
+    font-size: 15px;
+    outline: none;
+    border-color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.author-speach button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: greenyellow;
+}
+/* section-2 complete */
+/* section-3 start  */
